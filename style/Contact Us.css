@@ -7,7 +7,7 @@ body{
 }
 
 .page{
-    margin: 20px 150px;
+    margin: 40px 150px;
 }
 
 /*Title*/
@@ -52,7 +52,7 @@ section{
 
 
 .sub-contain{
-    margin: 30px 0;
+    margin: 50px 0;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 40px;
@@ -61,7 +61,7 @@ section{
 /*location*/
 .contain2{
     box-sizing: border-box;
-    border: 2px black solid;
+    border: 2px black none;
 }
 .contain2 h2{
     width: 100%;
@@ -72,7 +72,7 @@ section{
 /*Input Contact*/
 .contain3{
     box-sizing: border-box;
-    border: 2px black solid;
+    border: 2px black none;
 }
 .contain3 h2{
     width: 100%;
@@ -83,20 +83,39 @@ section{
 .form-row{
     display: flex;
     flex-direction: row;
-    margin-bottom: 30px;
+    margin-bottom: 22px;
 }
 .form-flex{
-    width: 45%;
+    width: 50%;
 }
 .form-flex input{
-    width: 300px;
+    width: 289px;
     padding: 10px 5px;
 }
-input + textarea{
-    font-size: 16px;
+
+
+.form-dex input{
+    width: 592px;
+    padding: 10px 5px;
+}
+
+input{
+    font-size: 14px;
 }
 
 textarea{
-    width: 660px;
+    width: 600px;
 }
+
+button{
+    height: 30px;
+    width: 80px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
 
