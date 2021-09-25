@@ -15,3 +15,15 @@ section{
     text-align: center;
     font-size: 35px;
 }
+
+.main-contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.contain1{
+    box-sizing: border-box;
+    border: 2px black solid;
+
+}
