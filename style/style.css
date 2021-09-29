@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 * {
     margin: 0;
     padding: 0;
+
 }
 
 body {
@@ -31,6 +33,7 @@ nav ul {
 nav ul li a {
    color: whitesmoke; 
    text-decoration: none;
+   font-family: 'Montserrat', sans-serif;
 }
 
 nav ul li a:hover {
@@ -95,7 +98,6 @@ z-index: 2;
     }
     nav ul{
         position: absolute;
-        
         right: 0;
         top: 0;
         height: 100vh;
@@ -113,11 +115,28 @@ z-index: 2;
         transform: translateX(0);
     }
 }
-.carousel-item{
-    height: 800px; 
+.gambar {
+	position: relative; 
+	overflow: hidden; 
+	background: #efefef;
 }
-.carousel-item img{
-    margin-top: -90px;
+
+.gambar { 
+	width: 100%; 
+    height: 700px;
+}
+
+.isi img { 
+	width: 100%;
+	height: 43%; 
+	float: left;
+}
+.isi{ 
+	position: absolute; 
+	width: 100%; 
+}
+.isi img {
+    float: right;
 }
 .text{
     position: absolute;
@@ -133,6 +152,9 @@ z-index: 2;
     color: red; 
     background-color: red; 
     width: 70px;
+}
+.portofolio img  {
+    padding-bottom: 50%;
 }
 .btn{
     margin-top: 10px;
