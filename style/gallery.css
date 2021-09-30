@@ -208,11 +208,11 @@ display: inline-block;
 
 /* body img 4 */
 .cont-img4 {
-  display: grid;
-  grid-template-columns: auto auto auto auto  ;
-  grid-gap: 15px;
-  padding: 10px;
-  margin: 10px 70px;
+    display: grid;
+    grid-template-columns: auto auto auto auto  ;
+    grid-gap: 15px;
+    padding: 10px;
+    margin: 10px 70px;
 }
 
 .cont-img4 > div {
@@ -260,3 +260,23 @@ display: inline-block;
 .read-more:hover{
   color: #b8b8b8;
 }
+
+
+
+
+/* Body Img 5 */
+.cont-img5{
+  display: grid;
+  grid-template-columns: auto auto  ;
+  padding: 10px;
+  margin: 10px 70px;
+  grid-gap: 1px;
+  background-color: grey;
+}
+.cont-img5 > div {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  
+}
+
