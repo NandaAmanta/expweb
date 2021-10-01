@@ -270,13 +270,22 @@ display: inline-block;
   grid-template-columns: auto auto  ;
   padding: 10px;
   margin: 10px 70px;
-  grid-gap: 1px;
-  background-color: grey;
+
 }
 .cont-img5 > div {
   width: 100%;
-  height: 100px;
-  background-color: rgb(255, 255, 255);
-  
-}
+  height: auto;
 
+
+}
+.cont-img5-box-right{
+  background-color: white;
+
+  height:300px;
+  width: 400px;
+
+  padding: 5px 20px;
+  margin: 37px 0 37px -200px;
+
+  box-shadow: rgba(98, 98, 98, 0.24) 0px 3px 8px;
+}
