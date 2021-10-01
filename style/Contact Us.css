@@ -7,7 +7,7 @@ body{
 }
 
 .page{
-    margin: 40px 150px;
+    margin: 40px 20%;
 }
 
 /*Title*/
@@ -25,8 +25,8 @@ section{
 /*Contain*/
 .main-contain{
     display: grid;
-    grid-template-columns: 29.5% 29.5% 29.5%;
-    grid-gap: 70px;
+    grid-template-columns: 30.4% 30.4% 30.4%;
+    grid-gap: 4.4%;
 }
 .contain1{
     box-sizing: border-box;
@@ -55,8 +55,8 @@ section{
 .sub-contain{
     margin: 50px 0;
     display: grid;
-    grid-template-columns: 49% 49%;
-    grid-gap: 40px;
+    grid-template-columns: 48.7% 48.7%;
+    grid-gap: 2.6%;
 }
 
 /*location*/
@@ -90,13 +90,15 @@ section{
     width: 50%;
 }
 .form-flex input{
-    width: 269px;
+    width: 96%;
     padding: 10px 5px;
 }
 
-
+.form-dex{
+    width: 99%;
+}
 .form-dex input{
-    width: 567.5px;
+    width: inherit;
     padding: 10px 5px;
 }
 
@@ -105,7 +107,7 @@ input{
 }
 
 textarea{
-    width: 575px;
+    width: inherit;
 }
 
 button{
