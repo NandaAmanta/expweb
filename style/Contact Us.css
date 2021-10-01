@@ -7,7 +7,7 @@ body{
 }
 
 .page{
-    margin: 40px 20%;
+    margin: 40px 10%;
 }
 
 /*Title*/
@@ -107,6 +107,7 @@ input{
 }
 
 textarea{
+    padding: 10px 6px;
     width: inherit;
 }
 
@@ -126,7 +127,7 @@ button:hover{
 @media screen and (max-width: 480px){
     /*Title*/
     .page{
-        margin: 40px 20px;
+        margin: 40px 4.8%;
     }
 
     section{
