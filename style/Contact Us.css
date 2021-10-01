@@ -150,7 +150,7 @@ button:hover{
         text-align: center;
     }
     
-    /*location & contact*/
+    /*location*/
     .sub-contain{
         margin: 40px 0;
         display: grid;
@@ -161,6 +161,7 @@ button:hover{
         height: 300px;
     }
 
+    /*contact*/
     .form-row{
         margin-bottom: 17px;
     }
@@ -170,18 +171,18 @@ button:hover{
         width: 100%;
     }
     .form-flex input{
-        width: 93.5%;
+        width: 92.7%;
     }
     .form-dex2{
         width: 240%;
-        max-width: 450px;
+        max-width: 440px;
     }
     .form-dex input{
-        width: 236%;
-        max-width: 450px;
+        width: 100%;
+        max-width: 100%;
     }
     textarea{
-        width: 200%;
-        max-width: 450px;
+        width: 100%;
+        max-width: 100%;
     }
 }   
