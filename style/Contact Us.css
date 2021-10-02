@@ -73,7 +73,7 @@ section{
 /*Input Contact*/
 .contain3{
     box-sizing: border-box;
-    border: 2px black none;
+    border: 3px black none;
 }
 .contain3 h2{
     width: 100%;
@@ -84,18 +84,20 @@ section{
 .form-row{
     display: flex;
     flex-direction: row;
-    margin-bottom: 22px;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 .form-flex{
-    width: 50%;
+    width: 49%;
+    margin-left: 0.5%;
 }
 .form-flex input{
-    width: 96%;
+    width: 95.5%;
     padding: 10px 5px;
 }
 
 .form-dex{
-    width: 99%;
+    width: 98.3%;
 }
 .form-dex input{
     width: inherit;
@@ -104,35 +106,36 @@ section{
 
 input{
     font-size: 14px;
+    border:0.5px solid;
 }
 
 textarea{
     padding: 10px 6px;
     width: inherit;
+    border: 0.5px solid;
 }
 
 button{
     height: 30px;
     width: 80px;
+    margin-left: 1.3%;
 }
-
 button:hover{
     background-color: black;
     color: white;
-    border: 0;
+    transition: 0.2s;
 }
-
 
 
 @media screen and (max-width: 480px){
     /*Title*/
     .page{
-        margin: 40px 4.8%;
+        margin: 40px 4.6%;
     }
 
     section{
         width: 100%;
-        height: 130px;
+        height: inherit;
     }
 
     .title h1{
@@ -166,26 +169,27 @@ button:hover{
 
     /*contact*/
     .form-row{
-        margin-bottom: 17px;
+        margin-bottom: 20px;
     }
 
+    #text{
+        margin-left: 2px;
+    }
     .form-flex{
         flex-direction: row;
-        width: 100%;
+        justify-content: space-around;
+        width: 49%;
     }
     .form-flex input{
-        width: 92.7%;
+        width: 93%;
     }
-    .form-dex2{
-        width: 240%;
-        max-width: 440px;
+    .form-dex{
+        width: 97.6%;
     }
     .form-dex input{
-        width: 100%;
-        max-width: 100%;
+        width: inherit;
     }
     textarea{
-        width: 100%;
-        max-width: 100%;
+        width: inherit;
     }
 }   
