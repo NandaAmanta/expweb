@@ -1,4 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@media (min-width: 601px){
+.exp-col.m6  {
+    width: 49.99999%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+    flex: 50%;
+    max-width: 50%;
+    }
+}
+      
+@media screen and (max-width: 600px) {
+    .column {
+    flex: 100%;
+    max-width: 100%;
+    }
+}
+
 * {
      margin: 0;
      padding: 0;
@@ -9,20 +29,13 @@ body{
 }
 
 /* Navbar */
+
 .nav-link{
     background-color: white; 
     z-index: 1;
     width: 100%;
     position: fixed;
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-}
-.carousel{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), 
-    url(https://wallpaperaccess.com/full/4503757.jpg);
-    background-size: cover;
-    background-position: center;
 }
 .navbar{
     width: 100%;
@@ -31,7 +44,6 @@ body{
     padding: 10px 0;
     align-items: center;
     justify-content: space-between;
-
 
 }
 .logo{
@@ -67,6 +79,19 @@ body{
 }
 .navbar ul li:hover::after{
     width: 100%;
+}
+
+
+
+/* Carousel */
+
+.carousel{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), 
+    url(https://wallpaperaccess.com/full/4503757.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .text{
     position: absolute;
@@ -120,6 +145,11 @@ button:hover{
     color: black;
 }
 
+
+
+
+
+
 /* About Us */
 
 .exp-center{
@@ -140,6 +170,11 @@ button:hover{
 .exo-quarter{
     padding: 0 20px;
 }
+
+
+
+
+
 
 /* Article */
 .exp-light-grey{
@@ -169,7 +204,35 @@ button:hover{
     color: black !important;
 }
 .exp-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 20px;
+   max-width: 100%;
+   height: auto;
 }
+.exp-round-large{
+    border-radius: 8px;
+}
+.exp-container > img{
+    right: 20;
+}
+
+
+/* Our Work */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+.column {
+    flex: 10%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+   
+ 
+ 
