@@ -200,8 +200,8 @@ button:hover{
     height: 30px;
 }
 .exp-black:hover{
-    background-color: white;
-    color: black !important;
+    background-color: #4e4e4e;
+    color: white !important;
 }
 .exp-image {
    max-width: 100%;
