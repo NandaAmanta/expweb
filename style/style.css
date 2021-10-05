@@ -258,6 +258,7 @@ iframe{
     height: 400px;
     margin-right: 20px;
     margin-top: 20px;
+    border-radius: 5px;
 }
 .contact{
     width: 100%;
@@ -301,8 +302,7 @@ iframe{
     margin-bottom: 30%; 
 }
 .form .text-box{
-    background: black;
-    color: white;
+    background: whitesmoke; 
     border: none;
     width: 80%;
     height: 50px;
@@ -317,8 +317,7 @@ iframe{
     margin-right: 15px;
 }
 .form textarea{
-    background: black;
-    color: white;
+    background: whitesmoke; 
     border: none;
     width: 100%;
     min-height: 200px;
@@ -357,11 +356,10 @@ iframe{
 
 /* Footer */
 .container-fluid {
-    width: 100%;
+    width: 100;
     padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;  
+    padding: auto;
 }
 .py-4 {
     padding-bottom: 1.5rem!important;
