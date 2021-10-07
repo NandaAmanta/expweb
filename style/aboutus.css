@@ -1,21 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
 @media (min-width: 601px){
-.exp-col , .exp-half {
+.exp-col.m6  {
     width: 49.99999%;
+    }
 }
-}
-
 
 
 /* Body */
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
+   margin: 0;
+   padding: 0;
+   font-family: 'Montserrat', sans-serif;
 }
 body{
-   line-height: 1.8;
-   min-height: 100vh;
+  line-height: 1.8;
+  min-height: 100vh;
 }
 
 /* Navbar */
@@ -176,27 +176,42 @@ body{
 
 
 /* Our Skill */
-.exp-light-grey, .exp-hover-light-grey:hover, .exp-light-gray, .exp-hover-light-gray:hover {
-   color: #000!important;
-   background-color: #f1f1f1!important;
+.exp-light-grey{
+   background-color: lightgrey;
 }
-.exp-padding-64 {
-   padding-top: 64px!important;
-   padding-bottom: 64px!important;
-}
-.exp-container, .exp-panel {
-   padding: 0.01em 16px;
-}
-.exp-row-padding > .exp-col{
+.exp-row-padding, .exp-col{
    padding: 0 8px;
 }
-.exp-col, .exp-half, .exp-third, .exp-twothird, .exp-threequarter, .exp-quarter {
-   
-   width: 100%;
+.exp-black{
+   color: white !important;
+   background-color: black; 
+   transition: 0.5s;
 }
-
-
-
+.exp-button{ 
+   display: inline-block;
+   padding: 8px 10px 5px 0;
+   vertical-align: middle;
+   overflow: hidden;
+   text-decoration: none; 
+   text-align: center;
+   cursor: pointer; 
+   margin: 15px 0;
+   height: 30px;
+}
+.exp-black:hover{
+   background-color: #4e4e4e;
+   color: white !important;
+}
+.exp-image {
+  max-width: 100%;
+  height: auto;
+}
+.exp-round-large{
+   border-radius: 8px;
+}
+.exp-container > img{
+   right: 20;
+}
 
 
 
@@ -208,7 +223,7 @@ body{
    width: 100;
    padding-right: 15px;
    margin: auto;  
-   padding: auto;
+   padding: auto; 
 }
 .py-4 {
    padding-bottom: 1.5rem!important;
