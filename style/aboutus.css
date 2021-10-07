@@ -1,3 +1,11 @@
+@media (min-width: 601px){
+.exp-col , .exp-half {
+    width: 49.99999%;
+}
+}
+
+
+
 /* Body */
 
 * {
@@ -70,7 +78,7 @@ body{
 .cont-bdy-hd{
    max-width: 100%;
    text-align: center; 
-   padding: 15% 0 70px 0;
+   padding: 10% 0 70px 0;
 }
 .cont-bdy-hd h2{
    font-size: 35px;
@@ -88,11 +96,46 @@ body{
 
 
 
-/* Who We Are */
-.whoweare {
+/* What We Do For? */
+.whoweare2{
    display: grid;
    grid-template-columns: auto auto auto auto ;
-   grid-gap: 15px;
+   grid-gap: 50px;
+   padding: 90px;
+   margin: 10px;
+    
+}
+.whoweare2 > div {
+   padding: 50px 0;
+   font-size: 30px;
+} 
+.img-box-cont5 p{
+   font-size: 15px;
+   line-height: 30px;
+   margin: 0; 
+   width: 50%;
+}
+.img-box-cont5 h2{
+   margin: 5px 0 15px 0;
+   font-size: 50px;
+   padding-left: 50%;
+}
+  
+.img-box-cont5 h2{
+     padding: 15px 0 0 0;
+}
+
+
+
+
+
+
+
+/* Who We Are */
+.whoweare{
+   display: grid;
+   grid-template-columns: auto auto auto auto ;
+   grid-gap: 20px;
    padding: 10px;
    margin: 10px 70px;
 }
@@ -104,14 +147,15 @@ body{
 
 .img-box-cont4 img{
  width: 100%;
- height: 100vh;
+ height: 80vh;
  border-radius: 5px;
 }
 
 .img-box-cont4 p{
  font-size: 15px;
  line-height: 30px;
- margin: 0;
+ margin: 0; 
+ width: 80%;
 }
 .img-box-cont4 h2{
  margin: 5px 0 15px 0;
@@ -120,27 +164,36 @@ body{
 
 .img-box-cont4 h2{
    padding: 80px 0 0 0;
+} 
+
+
+
+
+
+
+
+
+
+
+/* Our Skill */
+.exp-light-grey, .exp-hover-light-grey:hover, .exp-light-gray, .exp-hover-light-gray:hover {
+   color: #000!important;
+   background-color: #f1f1f1!important;
 }
-.read-more{
- text-decoration: none;
- border: none;
- padding: 15px 25px 15px 0;
- margin: 40px 0 0 0;
- color: #161616;
- background-color: white;
- font-size: 16px;
- font-family: 'Montserrat', sans-serif;
- font-weight: 700;
- transition-duration: 0.4s;
-
+.exp-padding-64 {
+   padding-top: 64px!important;
+   padding-bottom: 64px!important;
 }
-.read-more:hover{
- color: #b8b8b8;
+.exp-container, .exp-panel {
+   padding: 0.01em 16px;
 }
-
-
-
-
+.exp-row-padding > .exp-col{
+   padding: 0 8px;
+}
+.exp-col, .exp-half, .exp-third, .exp-twothird, .exp-threequarter, .exp-quarter {
+   
+   width: 100%;
+}
 
 
 
