@@ -1,6 +1,6 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 
-@media screen and (max-width: 630px){
+@media screen and (max-width: 843px){
     .topnav{
         display: none;
     }
@@ -9,7 +9,7 @@
     }
 }
 
-@media screen and (max-width: 630px){
+@media screen and (max-width: 843px){
     .topnav2.responsive {position: relative;}
     .topnav2.responsive {
         display: flex;
@@ -33,7 +33,7 @@
     }
 }
 
-@media screen and (min-width: 630px){
+@media screen and (min-width: 843px){
     .burger{
         display: none;
     }

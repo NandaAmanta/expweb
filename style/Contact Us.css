@@ -113,10 +113,18 @@ section{
     color: black;
     font-size: 20px
 }
+.contain1 p{
+    margin-bottom: 9px;
+}
 #sosmed1{
     width: 20px;
     height: 20px;
-    padding-top: 8px;
+    padding-top: 0px;
+    border-radius: 3pt;
+}
+#sosmed1:hover{
+    background-color: gray;
+    transition: 0.3s;
 }
 
 
@@ -203,6 +211,7 @@ button:hover{
     section{
         width: 100%;
         height: inherit;
+        margin-bottom: 170px;
     }
 
     .title h1{
