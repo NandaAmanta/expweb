@@ -1,8 +1,8 @@
 function myFunction() {
   var x = document.getElementById("myLinks2");
-  if (x.style.display === "none") {
-    x.style.display = "flex";
+  if (x.className === "topnav2") {
+    x.className += " responsive";
   } else {
-    x.style.display = "none";
+    x.className = "topnav2";
   }
 }

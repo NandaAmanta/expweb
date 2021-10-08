@@ -29,7 +29,7 @@ body{
 }
 .navbar{
     width: 100%;
-    height: 70px;
+    height: 80px;
     margin: auto;
     display: flex;
     padding: 10px 0;
@@ -49,13 +49,14 @@ body{
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 30px;
+    margin: 0 40px;
     position: relative;
 }
 .navbar ul li a{
     text-decoration: none;
     color: black;
     font-weight: 500;
+    margin: 0 20px;
     letter-spacing: 0.2px;
    
 }
@@ -75,6 +76,7 @@ body{
 
 /* Title */
 section{
+    margin: 170px 0 0 0;
     width: 100%;
     height: 220px;
 
