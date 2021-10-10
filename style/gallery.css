@@ -282,48 +282,64 @@ body{
   grid-template-columns: auto auto  ;
   padding: 10px;
   margin: 10px 70px;
-
 }
 .cont-img5 > div {
   width: 100%;
   height: auto;
-
-
 }
 .cont-img5-box-right{
   background-color: white;
-
-  width: 400px;
+  box-shadow: rgba(98, 98, 98, 0.24) 0px 3px 8px;
 
   padding: 45px 70px;
   margin: 30px 0 30px -100px;
-
-  box-shadow: rgba(98, 98, 98, 0.24) 0px 3px 8px;
 }
 .cont-img5-box-right h3{
   margin: 5px 0;
 }
 .cont-img5-box-right h5{
   margin: 5px 0 30px 0;
-
   color: #979797;
-
   font-weight: 500;
 }
 .cont-img5-box-right p{
   font-size: 13px;
-  
   line-height: 28px;
   letter-spacing: -0.5px;
 }
 
+.cont-img5-left{
+  width: 100%;
+  height: auto;
+}
 
+/* @media screen and (max-width: 900px) {
+  .cont-img5-box-right {
+    background-color: blue;
+    color: white;
+    width: 300px;
+    height: 100px;
+  }
+}
 
+@media screen and (max-width: 700px) {
+  .cont-img5-box-right {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    width: 200px;
+    height: 50px;
+    
+  }
+
+  .cont-img5-box-right p{
+    font-size: 8px;
+} */
+/* } */
 /* Body Img 6 */
 
 .cont-img6 {
   display: grid;
-  grid-template-columns: auto auto auto auto  ;
+  grid-template-columns: 20% 20% 20% 40% ;
   grid-gap: 15px;
   padding: 10px;
   margin: 10px 70px;
@@ -333,8 +349,8 @@ body{
   padding: 20px 0;
   font-size: 30px;
 }
-.img-box4-cont6{
-  width: 400px;
+.img-box6-cont6{
+
   margin: 0 0 0 20px;
 }
 .img-box-cont6 img{
@@ -354,4 +370,58 @@ body{
   margin: 5px 0 15px 0;
 
   font-size: 50px;
+}
+
+
+
+
+
+
+.cont-img7{
+  display: grid;
+  grid-template-columns: 55% 45%   ;
+
+  padding: 10px;
+  margin: 10px 70px;
+}
+.cont-img7 > div {
+  
+  width: 100%;
+  font-size: 30px;
+
+}
+.img-box-cont7-text{
+  background-color: white;
+  padding:45px 70px ;
+  margin: 50px auto;
+  position: absolute;
+  width: 45%;
+  box-shadow: rgba(98, 98, 98, 0.24) 0px 3px 8px;
+}
+.cont-img7 h3{
+  margin: 5px 0;
+  font-size: 18px;
+}
+.cont-img7 h5{
+  margin: 5px 0 30px 0;
+  color: #979797;
+  font-weight: 500;
+  font-size: 13px;
+}
+.cont-img7 p{
+  font-size: 13px;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+}
+@media screen and (max-width: 500px) {
+  .container-responsive {
+   
+    color: white;
+  
+
+  }
+  .container-responsive > div {
+    font-size: 30px;
+    background-color: #0167ff;
+  }
 }
