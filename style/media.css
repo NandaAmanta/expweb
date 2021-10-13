@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@media (min-width: 601px){
+.exp-col.m6  {
+    width: 49.99999%;
+    }
+.exp-third{
+    width: 33.33333%;
+}
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+    flex: 50%;
+    max-width: 100%;
+    }
+    .navbar ul li a{
+        justify-content: space-between;
+        text-align: center;
+        font-size: 14px;
+    }
+    .logo{
+        width: 12%;
+    } 
+    .exp-new{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 200px 200px 200px 200px;
+        grid-gap: 100px;
+    }
+
+}
+      
+@media screen and (max-width: 400px) {
+    .column {
+    flex: 100%;
+    max-width: 100%;
+    }
+    .navbar ul li a{
+        display: none;
+    }
+    .gallery {
+      grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+    .gallery {
+      grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+    }
+    .exp-new{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 200px 200px 200px;
+        grid-gap: 100px;
+    }
+}
+@-moz-keyframes zoomin {
+    0% {
+      max-width: 50%;
+      transform: rotate(-30deg);
+      filter: blur(4px);
+    }
+    30% {
+      filter: blur(4px);
+      transform: rotate(-80deg);
+    }
+    70% {
+      max-width: 50%;
+      transform: rotate(45deg);
+    }
+    100% {
+      max-width: 100%;
+      transform: rotate(0deg);
+    }
+}
+@-webkit-keyframes zoomin {
+    0% {
+      max-width: 50%;
+      transform: rotate(-30deg);
+      filter: blur(4px);
+    }
+    30% {
+      filter: blur(4px);
+      transform: rotate(-80deg);
+    }
+    70% {
+      max-width: 50%;
+      transform: rotate(45deg);
+    }
+    100% {
+      max-width: 100%;
+      transform: rotate(0deg);
+    }
+}
+@-o-keyframes zoomin {
+    0% {
+      max-width: 50%;
+      transform: rotate(-30deg);
+      filter: blur(4px);
+    }
+    30% {
+      filter: blur(4px);
+      transform: rotate(-80deg);
+    }
+    70% {
+      max-width: 50%;
+      transform: rotate(45deg);
+    }
+    100% {
+      max-width: 100%;
+      transform: rotate(0deg);
+    }
+}
+@keyframes zoomin {
+    0% {
+      max-width: 50%;
+      transform: rotate(-30deg);
+      filter: blur(4px);
+    }
+    30% {
+      filter: blur(4px);
+      transform: rotate(-80deg);
+    }
+    70% {
+      max-width: 50%;
+      transform: rotate(45deg);
+    }
+    100% {
+      max-width: 100%;
+      transform: rotate(0deg);
+    }
+}
+  
