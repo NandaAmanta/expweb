@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
-@media (min-width: 601px){
-.exp-col.m6  {
-    width: 49.99999%;
-    }
-.exp-third{
-    width: 33.33333%;
-}
-}
 
+
+
+/* Media 800px */
 @media screen and (max-width: 800px) {
     .column {
     flex: 50%;
@@ -24,12 +19,81 @@
     .exp-new{
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 200px 200px 200px 200px;
+        grid-template-rows: 200px;
         grid-gap: 100px;
     }
-
+    .exp-product{
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: 200px;
+      grid-gap: 100px;
+    }
+    .carousel{
+      max-width: 100%;
+      max-height: 100%;
+    }
+    .text{
+      position: absolute;
+      width: 100%;
+      top: 55%; 
+      text-align: center;
+      color: whitesmoke;
+  }
+    .text h1{
+    font-size: 25px;
+    margin-top: 80px;
+  }
+    .text .p{
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 25px;
+  }
+    button{
+    padding: 15px 0;
+    margin: 30px 10px; 
+  }
+  .exp-respon{
+    display: grid; 
+    grid-template-columns: auto;
+    grid-template-rows: 200px;
+    grid-gap: 100px;
 }
-      
+  #about{
+    padding: 200% 0;
+  }
+}
+
+
+/* Media 600px */
+@media (min-width: 601px){
+.exp-col.m6  {
+    width: 49.99999%;
+    }
+.exp-third{
+    width: 33.33333%;
+}
+}
+
+
+ @media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+    .gallery {
+      grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+    }
+    .exp-new{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 200px 200px 200px;
+        grid-gap: 100px;
+    }
+}     
+
+
+
+
+/* Media 400px */
 @media screen and (max-width: 400px) {
     .column {
     flex: 100%;
@@ -43,20 +107,7 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
-    .columns {
-        width: 100%;
-    }
-    .gallery {
-      grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
-    }
-    .exp-new{
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 200px 200px 200px;
-        grid-gap: 100px;
-    }
-}
+
 @-moz-keyframes zoomin {
     0% {
       max-width: 50%;
