@@ -4,15 +4,7 @@
 
 /* Media 800px */
 @media screen and (max-width: 800px) {
-  /* navbar */
-  .navbar ul li a{
-        justify-content: space-between;
-        text-align: center;
-        font-size: 14px;
-  }
-  .logo{
-        width: 12%;
-  }
+   
   .carousel{
     max-width: 100%;
     max-height: 100%;
@@ -49,7 +41,19 @@
     padding: 200% 0;
   }
    
-   
+  /* Product */
+  .exp-product{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 200px;
+    grid-gap: 100px;
+  }
+  #exp-col{
+    text-align: center;
+  }
+  #exp-col {
+    font-size: 200px;
+  }
 
   /* Service */
   .columns {
@@ -70,10 +74,7 @@
 }
 
 
- @media only screen and (max-width: 600px) {
-  .navbar ul li a{
-    display: none;
-  }
+ @media only screen and (max-width: 600px) { 
     .columns {
         width: 100%;
     }
@@ -96,10 +97,7 @@
     .column {
     flex: 100%;
     max-width: 100%;
-    }
-    .navbar ul li a{
-        display: none;
-    }
+    } 
     .gallery {
       grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
     }

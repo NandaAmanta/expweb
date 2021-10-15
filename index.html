@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Css -->
     <link rel="stylesheet" href="style/style.css">
-    <link href="style/media.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/media.css">
+    <link rel="stylesheet" href="style/hamburger-bar.css">
+
+    <!-- Font Style -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,19 +22,26 @@
 
 
   <!-- Navbar -->
-    <nav class="nav-link">
-      <div class="navbar">
-            <img src="TempatFoto/EXP WHITE WITH CONTEXT.png" alt="" class="logo">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Gallery.html">Gallery</a></li>
-                <li><a href="Contact Us.html">Contact Us</a></li>
-                
-            </ul>
+  <nav class="nav-link">
+    <div class="navbar" id="myLinks">
+          <img src="TempatFoto/EXP WHITE WITH CONTEXT.png" alt="" class="logo">
+          <ul class="topnav" id="myLinks1">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Gallery.html">Gallery</a></li>
+              <li><a href="Contact Us.html">Contact Us</a></li>
+          </ul>
+          <div class="burger" style="margin-right: 5%; background-color: rgba(0, 0, 0, 0.89); border-radius: 5pt">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="color: white; font-size: 45px; padding: 10px;">
+              <i class="fa fa-bars"></i>
+            </a>
         </div>
-    </nav>
-
-
+    </div>
+    <div class="topnav2" id="myLinks2">
+        <a href="index.html">Home</a>
+        <a href="Gallery.html" id="border">Gallery</a>
+        <a href="Contact Us.html">Contact Us</a>
+    </div>
+</nav>
 
 
   <!-- Carousel -->
@@ -136,6 +148,12 @@
         <div class="gallery-item">
             <div class="content"><img src="https://source.unsplash.com/random/?tech,past" alt=""></div>
         </div>
+        <div class="gallery-item">
+          <div class="content"><img src="https://source.unsplash.com/random/?tech,past" alt=""></div>
+      </div>
+      <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,past" alt=""></div>
+    </div>
     </div>
     </section>
  
@@ -234,6 +252,7 @@
 
 
   <script src="script/script.js"></script>
+  <script src="script/hamburger-bar.js"></script>
    
 </body>
 </html>
