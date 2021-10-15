@@ -4,63 +4,58 @@
 
 /* Media 800px */
 @media screen and (max-width: 800px) {
-    .column {
-    flex: 50%;
-    max-width: 100%;
-    }
-    .navbar ul li a{
+  /* navbar */
+  .navbar ul li a{
         justify-content: space-between;
         text-align: center;
         font-size: 14px;
-    }
-    .logo{
+  }
+  .logo{
         width: 12%;
-    } 
-    .exp-new{
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 200px;
-        grid-gap: 100px;
-    }
-    .exp-product{
-      display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: 200px;
-      grid-gap: 100px;
-    }
-    .carousel{
-      max-width: 100%;
-      max-height: 100%;
-    }
-    .text{
-      position: absolute;
-      width: 100%;
-      top: 55%; 
-      text-align: center;
-      color: whitesmoke;
   }
-    .text h1{
-    font-size: 25px;
-    margin-top: 80px;
-  }
-    .text .p{
-    font-size: 15px;
-    font-weight: 100;
-    line-height: 25px;
-  }
-    button{
-    padding: 15px 0;
-    margin: 30px 10px; 
-  }
+  .carousel{
+    max-width: 100%;
+    max-height: 100%;
+}
+  .text{
+    position: absolute;
+    width: 100%;
+    top: 55%; 
+    text-align: center;
+    color: whitesmoke;
+}
+  .text h1{
+  font-size: 25px;
+  margin-top: 80px;
+}
+  .text .p{
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 25px;
+}
+  button{
+  padding: 15px 0;
+  margin: 30px 10px; 
+}
+
+/* About US */
   .exp-respon{
     display: grid; 
     grid-template-columns: auto;
     grid-template-rows: 200px;
     grid-gap: 100px;
-}
+  }
   #about{
     padding: 200% 0;
   }
+   
+   
+
+  /* Service */
+  .columns {
+    padding: 30px;
+    width: 100%;
+}
 }
 
 
@@ -76,6 +71,9 @@
 
 
  @media only screen and (max-width: 600px) {
+  .navbar ul li a{
+    display: none;
+  }
     .columns {
         width: 100%;
     }
