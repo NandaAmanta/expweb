@@ -40,19 +40,9 @@
   #about{
     padding: 200% 0;
   }
-   
-  /* Product */
-  .exp-product{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 200px;
-    grid-gap: 100px;
-  }
-  #exp-col{
-    text-align: center;
-  }
-  #exp-col {
-    font-size: 200px;
+  .exp-round-large{
+    width: 200%;
+    height: 80%;
   }
 
   /* Service */
@@ -75,18 +65,35 @@
 
 
  @media only screen and (max-width: 600px) { 
-    .columns {
-        width: 100%;
-    }
-    .gallery {
-      grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
-    }
-    .exp-new{
+  
+  
+
+  .exp-product{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 200px;
+    grid-gap: 100px;
+
+  }
+
+
+
+  /* Skill */
+  .exp-new{
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: 200px 200px 200px;
         grid-gap: 100px;
     }
+  
+  /* Our Work */
+  .columns {
+        width: 100%;
+    }
+    .gallery {
+      grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+    }
+    
 }     
 
 
