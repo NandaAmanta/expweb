@@ -13,8 +13,6 @@
     position: absolute;
     width: 100%;
     top: 55%; 
-    text-align: center;
-    color: whitesmoke;
 }
   .text h1{
   font-size: 25px;
@@ -40,6 +38,8 @@
   #about{
     padding: 200% 0;
   }
+
+  /* Product */
   .exp-round-large{
     width: 200%;
     height: 80%;
@@ -80,33 +80,92 @@
 
   /* Skill */
   .exp-new{
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 200px 200px 200px;
-        grid-gap: 100px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 100px;
     }
   
   /* Our Work */
   .columns {
-        width: 100%;
+    width: 100%;
     }
     .gallery {
-      grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
     }
-    
+  .container{
+    font-size: 15px;
+  }
+
 }     
 
 
 
 
 /* Media 400px */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
+
+  /* Carousel */
+.text{
+    position: absolute;
+    width: 100%;
+    top: 60%; 
+}
+.text h1{
+  font-size: 20px;
+  margin-top: 80px;
+}
+  .text .p{
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 25px;
+}
+button{
+  padding: 10px 0;
+  margin: 10px 0;
+  margin-top: 30px; 
+}
+
+
+/* about */
+
+.exp-respon{
+  display: grid; 
+  grid-template-columns: auto;
+  grid-template-rows: 300px 300px 300px 200px;
+  grid-gap: 100px;
+}
+#about{
+  padding: 200% 0;
+}
+
+/* Product */
+.exp-product{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 200px;
+  grid-gap: 150px;
+
+}
+.exp-round-large{
+  height: 110%;
+}
+
+  /* Gallery */
     .column {
     flex: 100%;
     max-width: 100%;
     } 
     .gallery {
       grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    }
+
+  /*Skill*/
+  .exp-new{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 350px 200px 200px;
+    grid-gap: 100px;
     }
 }
 
