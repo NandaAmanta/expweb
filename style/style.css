@@ -355,7 +355,7 @@ button:hover{
 }
 
 .button {
-    background-color: #4CAF50;
+    background-color: #4d4766;
     border: none;
     border-radius: 5px;
     color: white;
@@ -366,62 +366,7 @@ button:hover{
 }
 
 
-/* Our team */
-.cont-img4 {
-    display: grid;
-    grid-template-columns: 19% 19% 19% 34% ;
-    grid-gap: 15px;
-    padding: 10% 0;
-    margin: 10px 70px;
-  }
-  
-  .cont-img4 > div {
-    padding: 20px 0;
-    font-size: 30px;
-  }
-  .img-box4-cont4{
-  
-    margin: 0 0 0 30px;
-  }
-  .img-box-cont4 img{
-    width: 100%;
-    height: auto;
-  
-    border-radius: 5px;
-  }
-  
-  .img-box-cont4 p{
-    font-size: 15px;
-    line-height: 30px;
-  
-    margin: 0;
-  }
-  .img-box-cont4 h2{
-    margin: 0 0 15px 0;
-  
-    font-size: 55px;
-  }
-  
-  .read-more{
-    text-decoration: none;
-    border: none;
-    padding: 15px 25px 15px 0;
-    margin: 40px 0 0 0;
-  
-    color: #161616;
-    background-color: white;
-  
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-  
-    font-weight: 700;
-  
-    transition-duration: 0.4s;
-  
-  }
-  .read-more:hover{
-    color: #b8b8b8;
-  }
+ 
   
 
 
