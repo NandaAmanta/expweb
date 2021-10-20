@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <script src="script/hamburger-bar.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -23,8 +24,8 @@
                   <li><a href="Gallery.html">Gallery</a></li>
                   <li><a href="Contact Us.html">Contact Us</a></li>
               </ul>
-              <div class="burger" style="margin-right: 5%; background-color: rgba(0, 0, 0, 0.89); border-radius: 5pt">
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="color: white; font-size: 45px; padding: 10px;">
+              <div class="burger" style="width: 90px; text-align: center;">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="color: black; font-size: 6vw; padding: 1px;">
                     <i class="fa fa-bars"></i>
                   </a>
             </div>
@@ -47,20 +48,20 @@
     <!--Contain-->
     <div class="page">
         <div class="main-contain">
-            <div class="contain1 ">
+            <div class="contain1" data-aos="fade-up" data-aos-duration="700">
                 <i class="material-icons" style="font-size:48px; margin-bottom: 7px;">place</i>
                 <p style="margin-bottom: 10px; font-size: 20px; font-weight:500;">Our Address</p>
                 <p style="text-align: center;">Jl. Mulawarman No.4, Abianbase, Kec. Gianyar, Kabupaten Gianyar, Bali</p>
             </div>
-            <div class="contain1">
+            <div class="contain1" data-aos="fade-up" data-aos-duration="700">
                 <i class="material-icons" style="font-size:44px; margin-bottom: 7px;">tablet_mac</i>
                 <p style="margin-bottom: 10px; font-size: 20px; font-weight:500;">Phone & Email</p>
                 <div>
                     <p><i class="fa fa-whatsapp" style="font-size:18px"></i>  +62 895-3306-67787</p>
-                    <p><i class="fa fa-envelope-o" style="font-size:17px"></i>  exp_group@gamil.com</p>
+                    <p><i class="fa fa-envelope-o" style="font-size:17px"></i>  exp_group@gmail.com</p>
                 </div>
             </div>
-            <div class="contain1">
+            <div class="contain1" data-aos="fade-up" data-aos-duration="700">
                 <i class="fa fa-share-alt" style="font-size:50px; margin-bottom: 7px;"></i>
                 <p style="font-size: 20px; font-weight:500;">Stay In Touch</p>
                 <p style="text-align: center;">Follow us on Social Media</p>
@@ -74,37 +75,37 @@
         <div class="sub-contain">
             <!--location-->
             <div class="contain2 myarea">
-                <h2>Google Maps</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1327.0794810175018!2d115.3262560429557!3d-8.555790542569012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2167c235f2d43%3A0x5d89670ab9864495!2sPerumahan%20Tedung%20Sari%20Damai!5e1!3m2!1sid!2sid!4v1633840353732!5m2!1sid!2sid" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <h2 data-aos="zoom-in">Google Maps</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1327.0794810175018!2d115.3262560429557!3d-8.555790542569012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2167c235f2d43%3A0x5d89670ab9864495!2sPerumahan%20Tedung%20Sari%20Damai!5e1!3m2!1sid!2sid!4v1633840353732!5m2!1sid!2sid" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" data-aos="fade-up" data-aos-duration="700"></iframe>
             </div>
             
             <!--Input Contact-->
             <div class="contain3 myarea">
-                <h2>Contact Us</h2>
+                <h2 data-aos="zoom-in">Contact Us</h2>
                 <div class="form-row">
-                    <div class="form-group form-flex" id="text">
+                    <div class="form-group form-flex" id="text" data-aos="fade-up" data-aos-duration="700">
                         <input type="text" placeholder="Name*">
                     </div>
-                    <div class="form-group form-flex">
+                    <div class="form-group form-flex" data-aos="fade-up" data-aos-duration="700">
                         <input type="text" placeholder="Phone*">
                     </div>
                 </div>
                 <div class="form-row">
-                    <div class="form-group form-dex" class="form-dex2">
+                    <div class="form-group form-dex" class="form-dex2" data-aos="fade-up" data-aos-duration="700">
                         <input type="text"  placeholder="Email*">
                     </div>
                 </div>
                 <div class="form-row">
-                    <div class="form-group form-dex">
+                    <div class="form-group form-dex" data-aos="fade-up" data-aos-duration="700">
                         <input type="text" cols="57" rows="10" placeholder="Subject*" class="form-dex2">
                     </div>
                 </div>
                 <div class="form-row">
-                    <div class="form-group form-dex" class="form-dex2">
+                    <div class="form-group form-dex" class="form-dex2" data-aos="fade-up" data-aos-duration="700">
                         <textarea name="Message" id="message" cols="57" rows="10" placeholder="Message*"></textarea>
                     </div>
                 </div>
-                <button class="send-btn" type="submit">
+                <button class="send-btn" type="submit" data-aos="fade-up" data-aos-duration="500">
                     <li class="fa fa-paper-plane"></li>
                     Kirim
                   </button>
@@ -120,7 +121,10 @@
     </div>
       
 
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     
 </body>
 </html>

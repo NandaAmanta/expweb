@@ -28,6 +28,9 @@
     #border{
         border: none;
     }
+    #click-bar{
+        transition: 1s;
+    }
     .topnav2.responsive a:hover{
         background-color: gray;
     }
