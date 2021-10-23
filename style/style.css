@@ -81,7 +81,8 @@ body{
     width: 100%;
     top: 50%;
     transform: translateY(-50%);
-    text-align: center;
+    text-align: left;
+    padding: 0;
     color: whitesmoke;
 }
 .text h1{
