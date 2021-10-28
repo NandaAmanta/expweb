@@ -82,7 +82,8 @@ body{
     top: 50%;
     transform: translateY(-50%);
     text-align: left;
-    padding: 0;
+    padding-left: 40px;
+    width: 80%;
     color: whitesmoke;
 }
 .text h1{
@@ -107,6 +108,7 @@ button{
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    font-size: 17px;
 } 
 #span{
     background: white;
@@ -139,18 +141,22 @@ button:hover{
 }
 .exp-center h1 {
     font-size: 40px!important;
+    color: #102348;
 }
 .exp-large{
     font-size: 18px!important;
 } 
 .exp-row-padding{
     display: flex; 
+    justify-content: center;
 }
 .fa{
-    padding: 0 10px 30px;
+    padding: 40px 10px 30px;
+    
 }
 .exp-quarter{
-    padding: 0 20px;
+    padding: 0 20px; 
+     
 }
  
 
