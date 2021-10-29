@@ -96,7 +96,7 @@ body{
     font-weight: 100;
     line-height: 25px;
 }
-button{
+#button{
     width: 200px;
     padding: 15px 0;
     text-align: center;
@@ -122,12 +122,12 @@ button{
     z-index: -1;
     transition: 0.5s;
 }
-button:hover #span{
+#button:hover #span{
     width: 100%;
     color: black;
 }
 
-button:hover{
+#button:hover{
     border: none;
     color: black;
 }
@@ -216,27 +216,37 @@ button:hover{
 .wrap{
     max-height: 100%;
     display: flex;
-    overflow-x: auto;
+    overflow-x: auto; 
+    
 }
 .wrap::-webkit-scrollbar{ 
     width: 0;
+   
 }
 .wrap .foto{
     min-width: 20%;
-    height: 500px;
-    line-height: 110px;
+    height: 500px; 
     text-align: center;
     background-color: transparent;
-    margin-right: 8%;
-    padding-bottom: 5%;
+    margin-right: 10%;
+    margin-bottom: 5%;
     justify-items: center;
-    border-bottom: 2px solid white;
 
 }
 .wrap .foto > img{
-    min-width: 20%;
-    height: 500px;  
+    width: 140%;
+    height: 500px;   
+    cursor: pointer;
+    
 }
+.wrap .foto p .view {
+    style=" background-color: navy; margin-left: 30%; width: 80px; height: 30px;"
+    text-align: left ;
+    border-bottom: 2px solid white;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+} 
 
 
 
