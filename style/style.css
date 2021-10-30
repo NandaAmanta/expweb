@@ -248,8 +248,8 @@ body{
     padding-bottom: 5px;
 } 
 #view{
-    background: navy;  
-    border: 2px solid navy;
+    background: #003F6D;  
+    border: 2px solid #003F6D;
     width: 80px; 
     height: 30px;
     color: white;
@@ -260,11 +260,39 @@ body{
 
 
 
+/* Portofolio */
+.porto{
+    max-height: 100%;
+    display: flex;
+}
+.porto .folio{
+    min-width: 20%;
+    height: 500px; 
+    text-align: center;
+    background-color: transparent;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    justify-items: center;
+}
+.porto .folio > img{
+    width: 140%;
+    height: 500px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #003F6D;
+}
+.porto .folio p {
+    text-align: left ;
+    color: #003F6D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px; 
+    margin-bottom: 50%;
+}
+
 
 /* Skill */
 .exp-light-grey{
     color: #000!important;
-    background-color: #f1f1f1!important;
+    background-color: #003F6D!important;
 }
 .exp-padding-64 {
     padding-top: 64px!important;
@@ -276,12 +304,13 @@ body{
 .exp-row-padding1 >.exp-col {
     padding: 0 8px;
 }
-.exp-wide {
+.exp-wide { 
     letter-spacing: 4px;
+    color: white;
 }
 .exp-dark-grey  {
-    color: #fff!important;
-    background-color: #616161!important;
+    color: #ffff!important;
+    background-color: #1B557F!important;
     height: 35px;
 }
 .exp-center {

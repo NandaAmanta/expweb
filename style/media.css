@@ -56,7 +56,9 @@
 
 /* Media 600px */
 @media (min-width: 601px){
- 
+.exp-col.m6  {
+    width: 80%;
+    }
 .exp-third{
     width: 33.33333%;
 }
@@ -64,7 +66,6 @@
 
 
  @media only screen and (max-width: 600px) { 
-  
   
 
   .exp-product{

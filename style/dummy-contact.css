@@ -1,7 +1,4 @@
-body{
-    margin: 0;
-}
-
+ 
 .contact{
     display: grid;
     grid-template-columns: 40% 20% 40%;
