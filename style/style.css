@@ -248,8 +248,8 @@ body{
     padding-bottom: 5px;
 } 
 #view{
-    background: navy; 
-    margin-left: 10%; 
+    background: navy;  
+    border: 2px solid navy;
     width: 80px; 
     height: 30px;
     color: white;

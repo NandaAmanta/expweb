@@ -56,9 +56,7 @@
 
 /* Media 600px */
 @media (min-width: 601px){
-.exp-col.m6  {
-    width: 49.99999%;
-    }
+ 
 .exp-third{
     width: 33.33333%;
 }
