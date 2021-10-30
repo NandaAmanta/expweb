@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    background-color: navy;
+}
+.contact-text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-me{
+    margin: 0 6% 0 23%;
+}
+h2{
+    font-size: 31px;
+    color: white;
+}
+
+/*contact us*/
+.contact-us{
+    display: flex;
+    flex-direction: column;
+}
+
+.mail-box{
+    background-color: white;
+    margin: 10px 0;
+    border-radius: 7pt;
+}
+.support{
+    margin: 0 10%;
+}
+.sales{
+    margin: 0 10%;
+}
+
+/*Get On Us*/
+.social-media{
+    margin: 15px 0 0 15%;
+
+}
+.social-media a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+.social-media a i{
+    color: blue;
+}
+
+
+
+
