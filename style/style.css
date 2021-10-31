@@ -95,6 +95,7 @@ body{
     font-size: 20px auto;
     font-weight: 100;
     line-height: 25px;
+    color: white;
 }
 #button{
     width: 200px;
@@ -264,6 +265,10 @@ body{
 .porto{
     max-height: 100%;
     display: flex;
+    
+}
+.folio:hover{
+    box-shadow:  5px 10px 8px 10px #888888;
 }
 .porto .folio{
     min-width: 20%;
@@ -271,7 +276,9 @@ body{
     text-align: center;
     background-color: transparent;
     margin-right: 15%;
+    box-shadow: ;
     margin-bottom: 10%;
+    transition: 0.5s;
     justify-items: center;
 }
 .porto .folio > img{
