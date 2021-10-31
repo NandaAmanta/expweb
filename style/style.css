@@ -221,8 +221,7 @@ body{
     
 }
 .wrap::-webkit-scrollbar{ 
-    width: 0;
-   
+    width: 0; 
 }
 .wrap .foto{
     min-width: 20%;
@@ -236,8 +235,7 @@ body{
 }
 .wrap .foto > img{
     width: 140%;
-    height: 500px;   
-    cursor: pointer;
+    height: 500px;
     
 }
 .wrap .foto p {
@@ -276,7 +274,6 @@ body{
     text-align: center;
     background-color: transparent;
     margin-right: 15%;
-    box-shadow: ;
     margin-bottom: 10%;
     transition: 0.5s;
     justify-items: center;
@@ -385,7 +382,8 @@ body{
 .contact{
     display: grid;
     grid-template-columns: 38% 25% 37%;
-    background-color: navy;
+    background-color: #091B3E;
+    padding: 2%;
 }
 .contact-text{
     text-align: center;
@@ -408,6 +406,7 @@ h2{
 .mail-box{
     background-color: white;
     margin: 10px 0;
+    padding: 20px 0;
     border-radius: 7pt;
 }
 .support{
@@ -428,7 +427,7 @@ h2{
     text-decoration: none;
 }
 .social-media a i{
-    color: blue;
+    color: rgb(0, 204, 255);
 }
  
 
